@@ -1,20 +1,20 @@
-# Recheck
+# Backlink Generator
 
 
   <p align="center">
-  <image src="https://user-images.githubusercontent.com/31664438/180301192-232392c0-3275-42bd-896c-499f73e7a091.png" align="center"  width="100%"/>
+  <image src="https://user-images.githubusercontent.com/31664438/215618898-ff62fab0-f40d-415d-9b55-38c83c2f1470.png" align="center"  width="100%"/>
 <h1 align="center"> Recheck </h1>
 Deep scan domain and find all possible domain  to takeover
     </p>
     
 ## Quick Links
 
-* [Demo](https://www.youtube.com/watch?v=TxvH8B3srXI)
+* [Demo](https://youtu.be/AOCNxfRVlWs)
 * [Installation](#run--installation)
 * [Feature](#feature)
 
 # Example 
-![image](https://user-images.githubusercontent.com/31664438/180301953-2e06277e-6a03-4e55-b216-1b0fafcffb2b.png)
+![image](https://user-images.githubusercontent.com/31664438/215619882-638fcd0f-9197-4a49-ae20-458c1019ba7a.png)
 
 
 
@@ -22,8 +22,8 @@ Deep scan domain and find all possible domain  to takeover
 How to run ?
 
 ```bash
-> git clone https://github.com/tegal1337/Recheck
-> cd Recheck
+> git clone https://github.com/tegal1337/Backlink-Generator
+> cd Backlink-Generator
 > npm install
 > npm start
 ```
@@ -34,9 +34,10 @@ How to run ?
 
  Feature  | Status |
 | -------------:|------------- |
-| Deepscan domain | Ok|
-| Find Possible takeover domain | Ok |
-
+| doFollow Backlinks | Ok|
+| noFollow Backlinks | Ok |
+| Proxies | TODO|
+| Analytics | TODO |
 
 ## Requirements
 
@@ -46,7 +47,7 @@ How to run ?
 
 ## Donate
 
-???
+
 
 
 
