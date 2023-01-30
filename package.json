@@ -1,0 +1,37 @@
+{
+  "dependencies": {
+    "axios": "^1.2.6",
+    "cli-color": "^2.0.3",
+    "cli-progress": "^3.11.2",
+    "cli-spinners": "^2.7.0",
+    "enquirer": "^2.3.6",
+    "spinnies": "^0.5.1",
+    "zany": "^1.0.6"
+  },
+  "name": "backlink-generator",
+  "version": "1.0.0",
+  "description": "Backlinks doFollow Generator",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tegal1337/Recheck.git"
+  },
+  "keywords": [
+    "reverse",
+    "ip",
+    "takeoverdomain"
+  ],
+  "author": "fdciabdul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tegal1337/Recheck/issues"
+  },
+  "homepage": "https://github.com/tegal1337/Recheck#readme"
+}
