@@ -4,8 +4,8 @@
   <p align="center">
   <image src="https://user-images.githubusercontent.com/31664438/215618898-ff62fab0-f40d-415d-9b55-38c83c2f1470.png" align="center"  width="100%"/>
 <h1 align="center"> Recheck </h1>
-Deep scan domain and find all possible domain  to takeover
-    </p>
+Auto generate backlink for your website 🌛
+ </p>
     
 ## Quick Links
 
