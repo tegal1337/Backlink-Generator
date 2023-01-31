@@ -12,6 +12,7 @@ const {
 const { getAPI } = require("./lib/getAPI");
 const { getBacklink } = require("./lib/getBacklink");
 const { checkLinks } = require("./lib/checkLink");
+const { HTTPRefer } = require("./lib/HTTPRefer");
 const cliSpinners = require("cli-spinners");
 const Spinners = require("spinnies");
 const spinners = new Spinners({
@@ -54,6 +55,7 @@ console.log(
     });
     switch (res) {
       case 200:
+        await HTTPRefer(link, domain);
         let succes = "[+] " + link + domain + " [200]";
         spinners.update("success", {
           text: succes,
