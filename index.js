@@ -43,7 +43,7 @@ console.log(
 
 (async function startApp() {
   const { [INPUT]: domain } = await prompt(question);
-  console.log(clc.whiteBright("\n\n"));
+  console.log(clc.whiteBright("\n"));
   const data = await getAPI();
 
   for (let i = 0; i < data.length; i++) {
