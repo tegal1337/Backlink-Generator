@@ -13,6 +13,7 @@ const { getAPI } = require("./lib/getAPI");
 const { getBacklink } = require("./lib/getBacklink");
 const { checkLinks } = require("./lib/checkLink");
 const { HTTPRefer } = require("./lib/HTTPRefer");
+const {getMoz} = require("./lib/getMoz");
 const cliSpinners = require("cli-spinners");
 const Spinners = require("spinnies");
 const spinners = new Spinners({
@@ -50,13 +51,14 @@ console.log(
     const link = getBacklink(data[i]);
     const res = await checkLinks(link, domain);
     spinners.add("success", {
-      text: " [+] Starting [+]",
+      text: "[+] Starting [+]",
       color: "green",
     });
     switch (res) {
       case 200:
         await HTTPRefer(link, domain);
-        let succes = "[+] " + link + domain + " [200]";
+        const [mozdata] = await getMoz(link);
+        let succes = "[+] " + link + domain + " [200]" + " | Moz Rank => [DA] "+ mozdata.da +" [PA]"+mozdata.da;
         spinners.update("success", {
           text: succes,
           color: "green",
